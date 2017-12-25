@@ -1,6 +1,6 @@
 /*
 Arduino MIDI project with Sparkfun MIDI Shield
-MIDI_over_Bluetooth.ino
+MIDI-Arduino-Sparkfun.ino
 Keyboard used: Yamaha YPT-220
 Written by: Patrick Chong Jin Hua
 
