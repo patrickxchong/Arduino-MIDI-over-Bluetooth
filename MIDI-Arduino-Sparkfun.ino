@@ -2,6 +2,7 @@
 Arduino MIDI project with Sparkfun MIDI Shield
 MIDI-Arduino-Sparkfun.ino
 Keyboard used: Yamaha YPT-220
+Digital Audio Workstations tested on: Mixcraft 7, Ableton Live 9 (Reset All Controllers message does not work in Ableton Live 9)
 Written by: Patrick Chong Jin Hua
 
 Notes:
@@ -72,6 +73,8 @@ void loop()
     // Send a Reset All Controllers message
     // When Reset All Controllers is received, all controller values are reset to their default values.
     // Controllers: Pitch bend, pedal etc
+    // Note: this message doesn't work in Ableton Live 9 Suite. 
+    // So be careful where the pitch bend (A0) toggle lands before switching off pitch bend
     Serial.write(176);
     Serial.write(121);
     Serial.write(0);
