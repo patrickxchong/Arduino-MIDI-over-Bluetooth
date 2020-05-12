@@ -1,4 +1,4 @@
-# MIDI-with-Arduino-and-SparkFun-MIDI-Shield
+# Arduino MIDI over Bluetooth using SparkFun MIDI Shield
 
 A MIDI based Arduino project using SparkFun's MIDI Shield. I created my own method of parsing MIDI signals in the code because the MIDI Library by Forty Seven Effects was not accurate enough for my intended purposes - to send MIDI Signals from the keyboard to my laptop wirelessly over Bluetooth. Since Serial in Arduino can be both accessed via USB and Bluetooth, no modification is required to use this code via USB. In fact, this guide assumes that setup is done via USB, and the Bluetooth component is covered later as an extension.
 
@@ -14,6 +14,7 @@ Diagram of completed MIDI over Bluetooth prototype
 * Sparkfun's MIDI Shield (https://www.sparkfun.com/products/12898) - best if set up using stackable headers especially if you want to send MIDI Signals to the laptop over bluetooth
 * Jumper wires/cables
 * MIDI cable(s)
+* HC-06 Bluetooth module (can be easily found online)
 
 ### Software (Arduino Code):
 * QueueList.h: https://playground.arduino.cc/Code/QueueList
@@ -53,3 +54,6 @@ This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md
 * https://www.cs.cmu.edu/~music/cmsip/readings/MIDI%20tutorial%20for%20programmers.html
 * https://learn.sparkfun.com/tutorials/midi-shield-hookup-guide
 * https://www.midi.org/specifications/item/table-1-summary-of-midi-message
+
+## Buy me a coffee (or bubble tea)
+[![ko-fi](https://www.ko-fi.com/img/githubbutton_sm.svg)](https://ko-fi.com/patrickchong)
