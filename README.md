@@ -56,4 +56,4 @@ This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md
 * https://www.midi.org/specifications/item/table-1-summary-of-midi-message
 
 ## Buy me a coffee (or bubble tea)
-[![ko-fi](https://www.ko-fi.com/img/githubbutton_sm.svg)](https://ko-fi.com/patrickchong)
+[![ko-fi](https://www.ko-fi.com/img/githubbutton_sm.svg)](https://ko-fi.com/patrickxchong)
